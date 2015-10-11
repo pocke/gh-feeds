@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/pocke.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/pocke"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/pocke.private.atom?token=tokentokentoketokentokentoken"/>
+  <title>Private Feed for pocke</title>
+  <updated>2015-10-11T12:50:35Z</updated>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227688184</id>
+    <published>2015-10-11T12:50:35Z</published>
+    <updated>2015-10-11T12:50:35Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/tunnckoCore/get-comments"/>
+    <title type="html">azu starred tunnckoCore/get-comments</title>
+    <author>
+      <name>azu</name>
+      <email>info@efcl.info</email>
+      <uri>https://github.com/azu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19714?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/azu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;azu&lt;/a&gt; starred &lt;a href=&quot;/tunnckoCore/get-comments&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;tunnckoCore/get-comments&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T12:50:35Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227680677</id>
+    <published>2015-10-11T12:40:25Z</published>
+    <updated>2015-10-11T12:40:25Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/jonschlinkert/parse-comments"/>
+    <title type="html">azu starred jonschlinkert/parse-comments</title>
+    <author>
+      <name>azu</name>
+      <email>info@efcl.info</email>
+      <uri>https://github.com/azu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19714?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/azu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;azu&lt;/a&gt; starred &lt;a href=&quot;/jonschlinkert/parse-comments&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;jonschlinkert/parse-comments&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T12:40:25Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/3227609171</id>
+    <published>2015-10-11T11:01:59Z</published>
+    <updated>2015-10-11T11:01:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/moznion/p6-Backtrace-AsHTML"/>
+    <title type="html">moznion created repository moznion/p6-Backtrace-AsHTML</title>
+    <author>
+      <name>moznion</name>
+      <email>moznion@gmail.com</email>
+      <uri>https://github.com/moznion</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/1422834?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/moznion&quot; data-ga-click=&quot;News feed, event click, Event click type:CreateEvent target:actor&quot;&gt;moznion&lt;/a&gt; created repository &lt;a href=&quot;/moznion/p6-Backtrace-AsHTML&quot; data-ga-click=&quot;News feed, event click, Event click type:CreateEvent target:repository&quot; title=&quot;moznion/p6-Backtrace-AsHTML&quot;&gt;moznion/p6-Backtrace-AsHTML&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T11:01:59Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/3227505227</id>
+    <published>2015-10-11T08:28:34Z</published>
+    <updated>2015-10-11T08:28:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/vim-jp/issues/issues/781"/>
+    <title type="html">splhack opened issue vim-jp/issues#781</title>
+    <author>
+      <name>splhack</name>
+      <email>sakamoto@splhack.org</email>
+      <uri>https://github.com/splhack</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/81904?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time datetime=&quot;2015-10-11T08:28:34Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/splhack&quot; data-ga-click=&quot;News feed, event click, Event click type:IssuesEvent target:actor&quot;&gt;splhack&lt;/a&gt; opened issue &lt;a href=&quot;/vim-jp/issues/issues/781&quot; data-ga-click=&quot;News feed, event click, Event click type:IssuesEvent target:issue&quot; title=&quot;if_rubyなどでdynamic loadingする場合のshared libraryのパス&quot;&gt;vim-jp/issues#781&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/splhack&quot;&gt;&lt;img alt=&quot;@splhack&quot; class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/81904?v=3&amp;amp;s=60&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      if_rubyなどでdynamic loadingする場合のshared libraryのパス
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227470460</id>
+    <published>2015-10-11T07:32:26Z</published>
+    <updated>2015-10-11T07:32:26Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/ncw/rclone"/>
+    <title type="html">joker1007 starred ncw/rclone</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/ncw/rclone&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;ncw/rclone&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:32:26Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227470289</id>
+    <published>2015-10-11T07:32:09Z</published>
+    <updated>2015-10-11T07:32:09Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/google/skicka"/>
+    <title type="html">joker1007 starred google/skicka</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/google/skicka&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;google/skicka&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:32:09Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227469435</id>
+    <published>2015-10-11T07:30:48Z</published>
+    <updated>2015-10-11T07:30:48Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/nylas/N1"/>
+    <title type="html">joker1007 starred nylas/N1</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/nylas/N1&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;nylas/N1&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:30:48Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227468257</id>
+    <published>2015-10-11T07:28:51Z</published>
+    <updated>2015-10-11T07:28:51Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/substack/hyperquest"/>
+    <title type="html">joker1007 starred substack/hyperquest</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/substack/hyperquest&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;substack/hyperquest&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:28:51Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227465556</id>
+    <published>2015-10-11T07:24:22Z</published>
+    <updated>2015-10-11T07:24:22Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/rocketjob/rocketjob"/>
+    <title type="html">joker1007 starred rocketjob/rocketjob</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/rocketjob/rocketjob&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;rocketjob/rocketjob&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:24:22Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227465050</id>
+    <published>2015-10-11T07:23:35Z</published>
+    <updated>2015-10-11T07:23:35Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/relax/relax"/>
+    <title type="html">joker1007 starred relax/relax</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/relax/relax&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;relax/relax&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:23:35Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227463359</id>
+    <published>2015-10-11T07:20:36Z</published>
+    <updated>2015-10-11T07:20:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/m1foley/fit-commit"/>
+    <title type="html">joker1007 starred m1foley/fit-commit</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/m1foley/fit-commit&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;m1foley/fit-commit&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:20:36Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227462752</id>
+    <published>2015-10-11T07:19:45Z</published>
+    <updated>2015-10-11T07:19:45Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/yudai/gotty"/>
+    <title type="html">joker1007 starred yudai/gotty</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/yudai/gotty&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;yudai/gotty&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:19:45Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227459092</id>
+    <published>2015-10-11T07:13:39Z</published>
+    <updated>2015-10-11T07:13:39Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/cowbell/active_model-errors_details"/>
+    <title type="html">joker1007 starred cowbell/active_model-errors_details</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/cowbell/active_model-errors_details&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;cowbell/active_model-errors_details&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:13:39Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227458155</id>
+    <published>2015-10-11T07:11:58Z</published>
+    <updated>2015-10-11T07:11:58Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/kmnk/vim-unite-giti"/>
+    <title type="html">joker1007 starred kmnk/vim-unite-giti</title>
+    <author>
+      <name>joker1007</name>
+      <email></email>
+      <uri>https://github.com/joker1007</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/116996?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/joker1007&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;joker1007&lt;/a&gt; starred &lt;a href=&quot;/kmnk/vim-unite-giti&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;kmnk/vim-unite-giti&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T07:11:58Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227442941</id>
+    <published>2015-10-11T06:47:18Z</published>
+    <updated>2015-10-11T06:47:18Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/posthtml/posthtml"/>
+    <title type="html">azu starred posthtml/posthtml</title>
+    <author>
+      <name>azu</name>
+      <email>info@efcl.info</email>
+      <uri>https://github.com/azu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19714?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/azu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;azu&lt;/a&gt; starred &lt;a href=&quot;/posthtml/posthtml&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;posthtml/posthtml&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T06:47:18Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227436710</id>
+    <published>2015-10-11T06:36:22Z</published>
+    <updated>2015-10-11T06:36:22Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/shogo82148/go-sql-proxy"/>
+    <title type="html">cubicdaiya starred shogo82148/go-sql-proxy</title>
+    <author>
+      <name>cubicdaiya</name>
+      <email>cubicdaiya@gmail.com</email>
+      <uri>https://github.com/cubicdaiya</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/56752?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/cubicdaiya&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;cubicdaiya&lt;/a&gt; starred &lt;a href=&quot;/shogo82148/go-sql-proxy&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;shogo82148/go-sql-proxy&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T06:36:22Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227431759</id>
+    <published>2015-10-11T06:27:50Z</published>
+    <updated>2015-10-11T06:27:50Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/shogo82148/androidbinary"/>
+    <title type="html">tenntenn starred shogo82148/androidbinary</title>
+    <author>
+      <name>tenntenn</name>
+      <email></email>
+      <uri>https://github.com/tenntenn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/796820?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/tenntenn&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;tenntenn&lt;/a&gt; starred &lt;a href=&quot;/shogo82148/androidbinary&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;shogo82148/androidbinary&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T06:27:50Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227414703</id>
+    <published>2015-10-11T05:59:54Z</published>
+    <updated>2015-10-11T05:59:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/gopherjs/gopherjs"/>
+    <title type="html">upamune starred gopherjs/gopherjs</title>
+    <author>
+      <name>upamune</name>
+      <email></email>
+      <uri>https://github.com/upamune</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/8219560?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/upamune&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;upamune&lt;/a&gt; starred &lt;a href=&quot;/gopherjs/gopherjs&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;gopherjs/gopherjs&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:59:54Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/3227414468</id>
+    <published>2015-10-11T05:59:27Z</published>
+    <updated>2015-10-11T05:59:27Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/rhysd/vimconf"/>
+    <title type="html">rhysd forked vim-jp/vimconf to rhysd/vimconf</title>
+    <author>
+      <name>rhysd</name>
+      <email>lin90162@yahoo.co.jp</email>
+      <uri>https://github.com/rhysd</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/823277?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/rhysd&quot; data-ga-click=&quot;News feed, event click, Event click type:ForkEvent target:actor&quot;&gt;rhysd&lt;/a&gt; forked &lt;a href=&quot;/vim-jp/vimconf&quot; data-ga-click=&quot;News feed, event click, Event click type:ForkEvent target:repo&quot;&gt;vim-jp/vimconf&lt;/a&gt; to &lt;a href=&quot;/rhysd/vimconf&quot; data-ga-click=&quot;News feed, event click, Event click type:ForkEvent target:parent&quot; title=&quot;rhysd/vimconf&quot;&gt;rhysd/vimconf&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:59:27Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227414302</id>
+    <published>2015-10-11T05:59:07Z</published>
+    <updated>2015-10-11T05:59:07Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/yutopp/ytscript"/>
+    <title type="html">rhysd starred yutopp/ytscript</title>
+    <author>
+      <name>rhysd</name>
+      <email>lin90162@yahoo.co.jp</email>
+      <uri>https://github.com/rhysd</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/823277?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/rhysd&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;rhysd&lt;/a&gt; starred &lt;a href=&quot;/yutopp/ytscript&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;yutopp/ytscript&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:59:07Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227411991</id>
+    <published>2015-10-11T05:54:44Z</published>
+    <updated>2015-10-11T05:54:44Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/braintree/manners"/>
+    <title type="html">cubicdaiya starred braintree/manners</title>
+    <author>
+      <name>cubicdaiya</name>
+      <email>cubicdaiya@gmail.com</email>
+      <uri>https://github.com/cubicdaiya</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/56752?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/cubicdaiya&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;cubicdaiya&lt;/a&gt; starred &lt;a href=&quot;/braintree/manners&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;braintree/manners&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:54:44Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227411375</id>
+    <published>2015-10-11T05:53:40Z</published>
+    <updated>2015-10-11T05:53:40Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/digitalbazaar/jsonld.js"/>
+    <title type="html">azu starred digitalbazaar/jsonld.js</title>
+    <author>
+      <name>azu</name>
+      <email>info@efcl.info</email>
+      <uri>https://github.com/azu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19714?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/azu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;azu&lt;/a&gt; starred &lt;a href=&quot;/digitalbazaar/jsonld.js&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;digitalbazaar/jsonld.js&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:53:40Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/3227406034</id>
+    <published>2015-10-11T05:42:47Z</published>
+    <updated>2015-10-11T05:42:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/yutopp/ytscript"/>
+    <title type="html">yutopp created repository yutopp/ytscript</title>
+    <author>
+      <name>yutopp</name>
+      <email>yutopp@gmail.com</email>
+      <uri>https://github.com/yutopp</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/219797?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/yutopp&quot; data-ga-click=&quot;News feed, event click, Event click type:CreateEvent target:actor&quot;&gt;yutopp&lt;/a&gt; created repository &lt;a href=&quot;/yutopp/ytscript&quot; data-ga-click=&quot;News feed, event click, Event click type:CreateEvent target:repository&quot; title=&quot;yutopp/ytscript&quot;&gt;yutopp/ytscript&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:42:47Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227395960</id>
+    <published>2015-10-11T05:25:44Z</published>
+    <updated>2015-10-11T05:25:44Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/cubicdaiya/slackboard"/>
+    <title type="html">upamune starred cubicdaiya/slackboard</title>
+    <author>
+      <name>upamune</name>
+      <email></email>
+      <uri>https://github.com/upamune</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/8219560?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/upamune&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;upamune&lt;/a&gt; starred &lt;a href=&quot;/cubicdaiya/slackboard&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;cubicdaiya/slackboard&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:25:44Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227395850</id>
+    <published>2015-10-11T05:25:33Z</published>
+    <updated>2015-10-11T05:25:33Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/cubicdaiya/nginx-build"/>
+    <title type="html">upamune starred cubicdaiya/nginx-build</title>
+    <author>
+      <name>upamune</name>
+      <email></email>
+      <uri>https://github.com/upamune</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/8219560?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/upamune&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;upamune&lt;/a&gt; starred &lt;a href=&quot;/cubicdaiya/nginx-build&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;cubicdaiya/nginx-build&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:25:33Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227392966</id>
+    <published>2015-10-11T05:20:47Z</published>
+    <updated>2015-10-11T05:20:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/ohager/nanoflux"/>
+    <title type="html">azu starred ohager/nanoflux</title>
+    <author>
+      <name>azu</name>
+      <email>info@efcl.info</email>
+      <uri>https://github.com/azu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19714?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/azu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;azu&lt;/a&gt; starred &lt;a href=&quot;/ohager/nanoflux&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;ohager/nanoflux&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:20:47Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227383546</id>
+    <published>2015-10-11T05:04:51Z</published>
+    <updated>2015-10-11T05:04:51Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/braintree/manners"/>
+    <title type="html">tenntenn starred braintree/manners</title>
+    <author>
+      <name>tenntenn</name>
+      <email></email>
+      <uri>https://github.com/tenntenn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/796820?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/tenntenn&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;tenntenn&lt;/a&gt; starred &lt;a href=&quot;/braintree/manners&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;braintree/manners&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:04:51Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227382075</id>
+    <published>2015-10-11T05:02:00Z</published>
+    <updated>2015-10-11T05:02:00Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Songmu/prompter"/>
+    <title type="html">tenntenn starred Songmu/prompter</title>
+    <author>
+      <name>tenntenn</name>
+      <email></email>
+      <uri>https://github.com/tenntenn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/796820?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/tenntenn&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;tenntenn&lt;/a&gt; starred &lt;a href=&quot;/Songmu/prompter&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;Songmu/prompter&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T05:02:00Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227371211</id>
+    <published>2015-10-11T04:43:03Z</published>
+    <updated>2015-10-11T04:43:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/crabtw/rust-bindgen"/>
+    <title type="html">cosmo0920 starred crabtw/rust-bindgen</title>
+    <author>
+      <name>cosmo0920</name>
+      <email>cosmo0920.wp@gmail.com</email>
+      <uri>https://github.com/cosmo0920</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/700876?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/cosmo0920&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;cosmo0920&lt;/a&gt; starred &lt;a href=&quot;/crabtw/rust-bindgen&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;crabtw/rust-bindgen&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T04:43:03Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/3227369651</id>
+    <published>2015-10-11T04:40:20Z</published>
+    <updated>2015-10-11T04:40:20Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/luxengine/math"/>
+    <title type="html">guregu starred luxengine/math</title>
+    <author>
+      <name>guregu</name>
+      <email></email>
+      <uri>https://github.com/guregu</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/131059?v=3&amp;s=30"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/guregu&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:actor&quot;&gt;guregu&lt;/a&gt; starred &lt;a href=&quot;/luxengine/math&quot; data-ga-click=&quot;News feed, event click, Event click type:WatchEvent target:repo&quot;&gt;luxengine/math&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2015-10-11T04:40:20Z&quot; is=&quot;relative-time&quot;&gt;Oct 11, 2015&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
