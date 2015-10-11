@@ -1,7 +1,11 @@
 //go:generate argen
 package db
 
-import "time"
+import (
+	"time"
+
+	"github.com/monochromegane/argen"
+)
 
 //+AR
 type Event struct {
@@ -14,3 +18,5 @@ type Event struct {
 	URL         string
 	ImageURL    string
 }
+
+func (m Event) belongsToUser() *ar.Association { return nil }
