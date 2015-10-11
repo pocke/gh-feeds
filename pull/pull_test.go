@@ -15,11 +15,26 @@ func TestPull(t *testing.T) {
 	f := MockHTTPReq("pocke.private.atom", r)
 	defer f()
 
-	resp, err := Pull("https://github.com/pocke.private.atom?token=tokentokentokentoken", 1)
+	uri := "https://github.com/pocke.private.atom?token=tokentokentokentoken"
+
+	_, err = Pull(uri, 1)
 	if err != nil {
 		t.Fatal(err)
 	}
-	t.Logf("%+v", resp.Entry[0].Thumbnail)
+
+	// When page is out of range
+	_, err = Pull(uri, -1)
+	if err == nil {
+		t.Error("should be error when page is out of range, but got nil")
+	}
+	_, err = Pull(uri, 0)
+	if err == nil {
+		t.Error("should be error when page is out of range, but got nil")
+	}
+	_, err = Pull(uri, 11)
+	if err == nil {
+		t.Error("should be error when page is out of range, but got nil")
+	}
 }
 
 type TransportMock struct {
