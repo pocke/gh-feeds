@@ -37,6 +37,31 @@ func TestPull(t *testing.T) {
 	}
 }
 
+func TestTransform(t *testing.T) {
+	r, err := ioutil.ReadFile("testdata/feeds.xml")
+	if err != nil {
+		t.Fatal(err)
+	}
+	f := MockHTTPReq("pocke.private.atom", r)
+	defer f()
+
+	uri := "https://github.com/pocke.private.atom?token=tokentokentokentoken"
+
+	resp, err := Pull(uri, 1)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	evs, err := transform(resp)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(evs) != len(resp.Entry) {
+		t.Fatalf("%d != %d", len(evs), len(resp.Entry))
+	}
+}
+
 type TransportMock struct {
 	f func(*http.Request) (*http.Response, error)
 }

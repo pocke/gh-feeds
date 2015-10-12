@@ -9,7 +9,7 @@ import (
 
 //+AR
 type Event struct {
-	ID          int `db:"pk"`
+	ID          int `db:"pk"` // auto increment
 	PublishedAt time.Time
 	Type        string // WatchEvent, ...
 	HTML        string
