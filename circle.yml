@@ -1,0 +1,11 @@
+dependencies:
+  pre:
+    - "go get -u ./..."
+
+# TODO: database
+
+test:
+  pre:
+    - "go vet ./..."
+  override:
+    - "make test"
