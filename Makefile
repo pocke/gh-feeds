@@ -1,6 +1,6 @@
 all:
 	cd db/ && make
-	cd pull/ && go build
+	go get ./...
 
 test:
 	cd pull/ && go test -v

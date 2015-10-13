@@ -1,11 +1,15 @@
 dependencies:
   pre:
-    - "go get -u ./..."
+    - "mkdir -p ~/.go_workspace/src/github.com/pocke/"
+    - "test -L ~/.go_workspace/src/github.com/pocke/gh-feeds || ln -s $(pwd) ~/.go_workspace/src/github.com/pocke/"
+    - "cd ~/.go_workspace/src/github.com/pocke/gh-feeds/ && make"
+    - "go get github.com/jarcoal/httpmock"
 
 # TODO: database
 
 test:
   pre:
+    - "go version"
     - "go vet ./..."
   override:
     - "make test"
