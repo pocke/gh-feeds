@@ -83,3 +83,23 @@ func transform(f *feed) ([]db.Event, error) {
 	}
 	return events, nil
 }
+
+// TODO: URIをもらうんじゃなく、user_idを貰ってAPIを叩いてあれをあれする
+func Do(uri string, page int) error {
+	f, err := Pull(uri, page)
+	if err != nil {
+		return err
+	}
+	evs, err := transform(f)
+	if err != nil {
+		return err
+	}
+	// TODO: バルクインサート
+	for _, e := range evs {
+		_, err := e.Save()
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
