@@ -28,9 +28,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `ghfeeds`.`feeds`
+-- Table `ghfeeds`.`events`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ghfeeds`.`feeds` (
+CREATE TABLE IF NOT EXISTS `ghfeeds`.`events` (
   `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `type` VARCHAR(45) NOT NULL COMMENT 'WatchEvent, IssueCommentEvent, ...',
   `published_at` DATETIME(5) NOT NULL COMMENT '',
