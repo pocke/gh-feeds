@@ -14,22 +14,11 @@ import (
 	"github.com/pocke/gh-feeds/db"
 )
 
-func MockFeeds() {
-	httpmock.Activate()
-	f, err := ioutil.ReadFile("testdata/feeds.xml")
-	if err != nil {
-		panic(err)
-	}
-
-	httpmock.RegisterResponder("GET", "https://github.com/pocke.private.atom",
-		httpmock.NewBytesResponder(http.StatusOK, f))
-}
-
 func TestPull(t *testing.T) {
-	MockFeeds()
+	MockHTTP()
 	defer httpmock.DeactivateAndReset()
 
-	uri := "https://github.com/pocke.private.atom?token=tokentokentokentoken"
+	uri := "https://github.com/pocke.private?token=tokentokentokentoken"
 	_, err := Pull(uri, 1)
 	if err != nil {
 		t.Fatal(err)
@@ -51,10 +40,10 @@ func TestPull(t *testing.T) {
 }
 
 func TestTransform(t *testing.T) {
-	MockFeeds()
+	MockHTTP()
 	defer httpmock.DeactivateAndReset()
 
-	uri := "https://github.com/pocke.private.atom?token=tokentokentokentoken"
+	uri := "https://github.com/pocke.private?token=tokentokentokentoken"
 	resp, err := Pull(uri, 1)
 	if err != nil {
 		t.Fatal(err)
@@ -71,15 +60,8 @@ func TestTransform(t *testing.T) {
 }
 
 func TestFeedURI(t *testing.T) {
-	httpmock.Activate()
+	MockHTTP()
 	defer httpmock.DeactivateAndReset()
-	f, err := ioutil.ReadFile("testdata/feeds_api.json")
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	httpmock.RegisterResponder("GET", "https://api.github.com/feeds",
-		httpmock.NewBytesResponder(http.StatusOK, f))
 
 	UseTestDB()
 	u, err := db.CreateUser(&db.UserParams{
@@ -100,7 +82,26 @@ func TestFeedURI(t *testing.T) {
 	if uri != e {
 		t.Errorf("Expected: %s, but got %s", e, uri)
 	}
-	t.Log(uri)
+}
+
+func TestDo(t *testing.T) {
+	MockHTTP()
+	defer httpmock.DeactivateAndReset()
+
+	UseTestDB()
+	u, err := db.CreateUser(&db.UserParams{
+		ID:   1,
+		Name: "pocke",
+		Auth: "",
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = Do(u.ID, 1)
+	if err != nil {
+		t.Error(err)
+	}
 }
 
 func UseTestDB() {
@@ -123,4 +124,23 @@ func UseTestDB() {
 		panic(err)
 	}
 	db.Use(d)
+}
+
+func MockHTTP() {
+	httpmock.Activate()
+	f, err := ioutil.ReadFile("testdata/feeds.xml")
+	if err != nil {
+		panic(err)
+	}
+
+	httpmock.RegisterResponder("GET", "https://github.com/pocke.private",
+		httpmock.NewBytesResponder(http.StatusOK, f))
+
+	f, err = ioutil.ReadFile("testdata/feeds_api.json")
+	if err != nil {
+		panic(err)
+	}
+
+	httpmock.RegisterResponder("GET", "https://api.github.com/feeds",
+		httpmock.NewBytesResponder(http.StatusOK, f))
 }
