@@ -8,9 +8,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/google/go-github/github"
 	"github.com/joeshaw/iso8601"
 	"github.com/pocke/gh-feeds/db"
 
+	"golang.org/x/oauth2"
 	"golang.org/x/tools/blog/atom"
 )
 
@@ -84,8 +86,30 @@ func transform(f *feed) ([]db.Event, error) {
 	return events, nil
 }
 
+func feedURI(user_id int) (string, error) {
+	u, err := db.User{}.Find(user_id)
+	if err != nil {
+		return "", err
+	}
+	ts := oauth2.StaticTokenSource(
+		&oauth2.Token{AccessToken: u.Auth},
+	)
+	tc := oauth2.NewClient(oauth2.NoContext, ts)
+	c := github.NewClient(tc)
+	fe, _, err := c.Feeds.ListFeeds()
+	if err != nil {
+		return "", err
+	}
+	return fe.Links.CurrentUser.Href, nil
+}
+
 // TODO: URIをもらうんじゃなく、user_idを貰ってAPIを叩いてあれをあれする
-func Do(uri string, page int) error {
+func Do(user_id int, page int) error {
+	uri, err := feedURI(user_id)
+	if err != nil {
+		return err
+	}
+
 	f, err := Pull(uri, page)
 	if err != nil {
 		return err
