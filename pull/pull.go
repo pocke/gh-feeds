@@ -11,6 +11,7 @@ import (
 	"github.com/google/go-github/github"
 	"github.com/joeshaw/iso8601"
 	"github.com/pocke/gh-feeds/db"
+	"github.com/pocke/gh-feeds/go-github-feeds"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/tools/blog/atom"
@@ -96,7 +97,9 @@ func feedURI(user_id int) (string, error) {
 	)
 	tc := oauth2.NewClient(oauth2.NoContext, ts)
 	c := github.NewClient(tc)
-	fe, _, err := c.Feeds.ListFeeds()
+
+	fc := &feeds.FeedsService{Client: c}
+	fe, _, err := fc.ListFeeds()
 	if err != nil {
 		return "", err
 	}
