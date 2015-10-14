@@ -103,7 +103,6 @@ func feedURI(user_id int) (string, error) {
 	return fe.Links.CurrentUser.Href, nil
 }
 
-// TODO: URIをもらうんじゃなく、user_idを貰ってAPIを叩いてあれをあれする
 func Do(user_id int, page int) error {
 	uri, err := feedURI(user_id)
 	if err != nil {
