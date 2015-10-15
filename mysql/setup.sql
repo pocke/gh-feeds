@@ -18,8 +18,8 @@ USE `ghfeeds` ;
 -- Table `ghfeeds`.`users`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ghfeeds`.`users` (
-  `id` INT NOT NULL COMMENT 'GitHub ID',
-  `name` VARCHAR(45) NOT NULL COMMENT 'User name of GitHub.\nthis is \'login\' on result of GitHub API.',
+  `id` INT NOT NULL COMMENT '',
+  `name` VARCHAR(45) NOT NULL COMMENT '',
   `auth` VARCHAR(45) NOT NULL COMMENT '',
   PRIMARY KEY (`id`)  COMMENT '',
   UNIQUE INDEX `id_UNIQUE` (`id` ASC)  COMMENT '',
@@ -32,8 +32,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ghfeeds`.`events` (
   `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
-  `type` VARCHAR(45) NOT NULL COMMENT 'WatchEvent, IssueCommentEvent, ...',
-  `published_at` DATETIME(5) NOT NULL COMMENT '',
+  `type` VARCHAR(45) NOT NULL COMMENT '',
+  `published_at` DATETIME NOT NULL COMMENT '',
   `user_id` INT NOT NULL COMMENT '',
   `html` TEXT NOT NULL COMMENT '',
   `author_name` VARCHAR(45) NOT NULL COMMENT '',

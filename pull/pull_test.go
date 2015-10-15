@@ -3,6 +3,7 @@ package pull
 import (
 	"bytes"
 	"database/sql"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os/exec"
@@ -63,7 +64,10 @@ func TestFeedURI(t *testing.T) {
 	MockHTTP()
 	defer httpmock.DeactivateAndReset()
 
-	UseTestDB()
+	err := UseTestDB()
+	if err != nil {
+		t.Fatal(err)
+	}
 	u, err := db.CreateUser(&db.UserParams{
 		ID:   1,
 		Name: "pocke",
@@ -88,7 +92,10 @@ func TestDo(t *testing.T) {
 	MockHTTP()
 	defer httpmock.DeactivateAndReset()
 
-	UseTestDB()
+	err := UseTestDB()
+	if err != nil {
+		t.Fatal(err)
+	}
 	u, err := db.CreateUser(&db.UserParams{
 		ID:   1,
 		Name: "pocke",
@@ -104,26 +111,27 @@ func TestDo(t *testing.T) {
 	}
 }
 
-func UseTestDB() {
+func UseTestDB() error {
 	s, err := ioutil.ReadFile("../mysql/setup.sql")
 	if err != nil {
-		panic(err)
+		return err
 	}
 	s = []byte(strings.Replace(string(s), "ghfeeds", "ghfeeds_test", -1))
-	s = append([]byte("drop database ghfeeds_test;\n"), s...)
+	s = append([]byte("drop database if exists ghfeeds_test;\n"), s...)
 	buf := bytes.NewBuffer(s)
 	c := exec.Command("mysql", "-uroot")
 	c.Stdin = buf
-	err = c.Run()
+	out, err := c.CombinedOutput()
 	if err != nil {
-		panic(err)
+		return fmt.Errorf("%s, %s", err, string(out))
 	}
 
 	d, err := sql.Open("mysql", "root:@/ghfeeds_test")
 	if err != nil {
-		panic(err)
+		return err
 	}
 	db.Use(d)
+	return nil
 }
 
 func MockHTTP() {
