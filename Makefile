@@ -1,6 +1,6 @@
 all:
-	cd db/ && make
-	cd oauth/ && make
+	$(MAKE) -C db
+	$(MAKE) -C oauth
 	go get ./...
 
 test:
