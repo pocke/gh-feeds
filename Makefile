@@ -1,5 +1,6 @@
 all:
 	cd db/ && make
+	cd oauth/ && make
 	go get ./...
 
 test:
