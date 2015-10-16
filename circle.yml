@@ -6,7 +6,7 @@ dependencies:
   pre:
     - "mkdir -p ~/.go_workspace/src/github.com/pocke/"
     - "test -L ~/.go_workspace/src/github.com/pocke/gh-feeds || ln -s $(pwd) ~/.go_workspace/src/github.com/pocke/"
-    - "go get github.com/pocke/gh-feeds"
+    - "go get github.com/pocke/gh-feeds/..."
     - "cd ~/.go_workspace/src/github.com/pocke/gh-feeds/ && make"
 
 test:
