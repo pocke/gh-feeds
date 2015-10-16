@@ -8,8 +8,6 @@ dependencies:
     - "test -L ~/.go_workspace/src/github.com/pocke/gh-feeds || ln -s $(pwd) ~/.go_workspace/src/github.com/pocke/"
     - "cd ~/.go_workspace/src/github.com/pocke/gh-feeds/ && make"
 
-# TODO: database
-
 test:
   pre:
     - "go version"
