@@ -70,7 +70,7 @@ func Callback(w http.ResponseWriter, r *http.Request) {
 	}
 
 	ghc := github.NewClient(oauthConf.Client(oauth2.NoContext, tok))
-	u, _, err := ghc.Users.Get("")
+	u, _, err := ghc.Users.Get("") // get me
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
