@@ -24,7 +24,7 @@ func TestAuth(t *testing.T) {
 	if resp.StatusCode != http.StatusMovedPermanently {
 		t.Errorf("Expect %d, but got %d", http.StatusMovedPermanently, resp.StatusCode)
 	}
-	if lo := resp.Header.Get("Location"); !strings.Contains(lo, "https://github.com/login/oauth/autorize") {
-		t.Errorf("Location should contain %s, but got %s", "https://github.com/login/oauth/autorize", lo)
+	if lo := resp.Header.Get("Location"); !strings.Contains(lo, "https://github.com/login/oauth/authorize") {
+		t.Errorf("Location should contain %s, but got %s", "https://github.com/login/oauth/authorize", lo)
 	}
 }
