@@ -60,7 +60,7 @@ func timeStrToTime(s atom.TimeStr) (time.Time, error) {
 	return time.Parse(iso8601.Format+"Z", string(s))
 }
 
-func transform(f *feed) ([]db.Event, error) {
+func transform(f *feed, user_id int) ([]db.Event, error) {
 	events := make([]db.Event, 0, len(f.Entry))
 	for _, e := range f.Entry {
 		t, err := timeStrToTime(e.Published)
@@ -78,7 +78,7 @@ func transform(f *feed) ([]db.Event, error) {
 			Type:        e.ID, // TODO:
 			HTML:        e.Content.Body,
 			AuthorName:  e.Author.Name,
-			UserId:      1, // TODO:
+			UserId:      user_id,
 			URL:         url,
 			ImageURL:    e.Thumbnail.URL,
 		}
@@ -116,7 +116,7 @@ func Do(user_id int, page int) error {
 	if err != nil {
 		return err
 	}
-	evs, err := transform(f)
+	evs, err := transform(f, user_id)
 	if err != nil {
 		return err
 	}

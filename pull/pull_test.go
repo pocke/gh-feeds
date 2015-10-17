@@ -50,7 +50,7 @@ func TestTransform(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	evs, err := transform(resp)
+	evs, err := transform(resp, 1)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -108,6 +108,10 @@ func TestDo(t *testing.T) {
 	err = Do(u.ID, 1)
 	if err != nil {
 		t.Error(err)
+	}
+
+	if ev := new(db.Event); ev.All().Count() == 0 {
+		t.Error("count should not be 0, but got 0")
 	}
 }
 
