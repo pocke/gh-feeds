@@ -14,11 +14,11 @@ import (
 
 type Config struct {
 	Port         int
-	CleintID     string
+	ClientID     string `toml:"client_id"`
 	ClientSecret string
 }
 
-var config *Config
+var config = new(Config)
 
 var oauthConf = &oauth2.Config{
 	Endpoint: oauth2.Endpoint{
@@ -37,7 +37,7 @@ func setConfig() error {
 		return err
 	}
 
-	oauthConf.ClientID = config.CleintID
+	oauthConf.ClientID = config.ClientID
 	oauthConf.ClientSecret = config.ClientSecret
 	return nil
 }
