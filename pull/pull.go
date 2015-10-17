@@ -1,4 +1,4 @@
-package pull
+package main
 
 import (
 	"encoding/xml"
@@ -28,6 +28,12 @@ type entry struct {
 
 type thumbnail struct {
 	URL string `xml:"url,attr"`
+}
+
+const PORT = 2223
+
+func main() {
+
 }
 
 func Pull(uri string, page int) (*feed, error) {
@@ -116,6 +122,7 @@ func Do(user_id int, page int) error {
 	if err != nil {
 		return err
 	}
+
 	evs, err := transform(f, user_id)
 	if err != nil {
 		return err

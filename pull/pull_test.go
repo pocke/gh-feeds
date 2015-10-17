@@ -1,4 +1,4 @@
-package pull
+package main
 
 import (
 	"bytes"
