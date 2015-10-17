@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 
 	"golang.org/x/oauth2"
@@ -10,19 +11,20 @@ import (
 	"github.com/google/go-github/github"
 	"github.com/naoina/toml"
 	"github.com/pocke/gh-feeds/db"
+	"github.com/pocke/hlog"
 )
 
 type Config struct {
 	Port         int
-	CleintID     string
+	ClientID     string `toml:"client_id"`
 	ClientSecret string
 }
 
-var config *Config
+var config = new(Config)
 
 var oauthConf = &oauth2.Config{
 	Endpoint: oauth2.Endpoint{
-		AuthURL:  "https://github.com/login/oauth/autorize",
+		AuthURL:  "https://github.com/login/oauth/authorize",
 		TokenURL: "https://github.com/login/oauth/access_token",
 	},
 }
@@ -37,12 +39,17 @@ func setConfig() error {
 		return err
 	}
 
-	oauthConf.ClientID = config.CleintID
+	oauthConf.ClientID = config.ClientID
 	oauthConf.ClientSecret = config.ClientSecret
 	return nil
 }
 
 func main() {
+	if err := db.UseProd(); err != nil {
+		panic(err)
+	}
+	db.LogMode(true)
+
 	if err := setConfig(); err != nil {
 		panic(err)
 	}
@@ -51,7 +58,8 @@ func main() {
 	mux.GetFunc("/authorize", Auth)
 	mux.GetFunc("/auth_callback", Callback)
 
-	http.ListenAndServe(fmt.Sprintf(":%d", config.Port), mux)
+	log.Printf("Start HTTP Server with port %d", config.Port)
+	http.ListenAndServe(fmt.Sprintf(":%d", config.Port), hlog.Wrap(mux.ServeHTTP))
 }
 
 func Auth(w http.ResponseWriter, r *http.Request) {
@@ -75,13 +83,12 @@ func Callback(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	user := &db.User{
+	_, err = db.CreateUser(&db.UserParams{
 		ID:   *u.ID,
 		Name: *u.Login,
 		Auth: tok.AccessToken,
-	}
-
-	if _, err := user.Save(); err != nil {
+	})
+	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
