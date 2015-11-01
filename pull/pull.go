@@ -36,7 +36,7 @@ func main() {
 
 }
 
-func Pull(uri string, page int) (*feed, error) {
+func pull(uri string, page int) (*feed, error) {
 	if page < 1 || 10 < page {
 		return nil, fmt.Errorf("page should be 1..10, but got %d", page)
 	}
@@ -118,7 +118,7 @@ func Do(user_id int, page int) error {
 		return err
 	}
 
-	f, err := Pull(uri, page)
+	f, err := pull(uri, page)
 	if err != nil {
 		return err
 	}

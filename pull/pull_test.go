@@ -20,21 +20,21 @@ func TestPull(t *testing.T) {
 	defer httpmock.DeactivateAndReset()
 
 	uri := "https://github.com/pocke.private?token=tokentokentokentoken"
-	_, err := Pull(uri, 1)
+	_, err := pull(uri, 1)
 	if err != nil {
 		t.Fatal(err)
 	}
 
 	// When page is out of range
-	_, err = Pull(uri, -1)
+	_, err = pull(uri, -1)
 	if err == nil {
 		t.Error("should be error when page is out of range, but got nil")
 	}
-	_, err = Pull(uri, 0)
+	_, err = pull(uri, 0)
 	if err == nil {
 		t.Error("should be error when page is out of range, but got nil")
 	}
-	_, err = Pull(uri, 11)
+	_, err = pull(uri, 11)
 	if err == nil {
 		t.Error("should be error when page is out of range, but got nil")
 	}
@@ -45,7 +45,7 @@ func TestTransform(t *testing.T) {
 	defer httpmock.DeactivateAndReset()
 
 	uri := "https://github.com/pocke.private?token=tokentokentokentoken"
-	resp, err := Pull(uri, 1)
+	resp, err := pull(uri, 1)
 	if err != nil {
 		t.Fatal(err)
 	}
